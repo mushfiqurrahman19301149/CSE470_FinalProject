@@ -6,9 +6,9 @@ $post_data['store_passwd'] = "devel63963eb190574@ssl";
 $post_data['total_amount'] = $_GET['taka'];
 $post_data['currency'] = "BDT";
 $post_data['tran_id'] = "SSLCZ_TEST_".uniqid();
-$post_data['success_url'] = "http://localhost/ecommerce-website-php/mvc/controller/success.php";
-$post_data['fail_url'] = "http://localhost/ecommerce-website-php/mvc/controller/failed.php";
-$post_data['cancel_url'] = "http://localhost/ecommerce-website-php/mvc/controller";
+$post_data['success_url'] = "http://localhost/ecommerce-website-php/mvc/model/success.php";
+$post_data['fail_url'] = "http://localhost/ecommerce-website-php/mvc/model/failed.php";
+$post_data['cancel_url'] = "http://localhost/ecommerce-website-php/mvc/controller/index.php";
 # $post_data['multi_card_name'] = "mastercard,visacard,amexcard";  # DISABLE TO DISPLAY ALL AVAILABLE
 
 # EMI INFO
